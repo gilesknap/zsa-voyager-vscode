@@ -1,0 +1,10 @@
+#Not useful - rebind
+- ctrl [ or ]  indent or outent - rebind to open, close side panes
+
+# My Bindings
+
+- navigate panes
+  - alt j = switch to terminal
+  - alt k = switch to editor
+  - alt l = next window
+  - alt h = previous window
