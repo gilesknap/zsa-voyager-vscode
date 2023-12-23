@@ -1,4 +1,4 @@
 Notes
 =====
 
-A place to keep some notes
+A place to keep some notes, goals
