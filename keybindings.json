@@ -93,6 +93,12 @@
     "when": "canNavigateBack"
   },
   // easier jumps to left pane that does not conflict with emojis
+  //  hyper plus:
+  //  d = debug
+  //  e = explorer
+  //  f = source control
+  // rest of top row left hand:
+  //  r = repositories, q = extensions, w = timeline
   {
     "key": "ctrl+shift+e",
     "command": "-workbench.view.explorer",
@@ -104,6 +110,11 @@
   },
   {
     "key": "meta+ctrl+shift+alt+r",
+    "command": "workbench.scm.repositories.focus"
+  },
+  {
+    // scm is the key below source repositories like it is in the panel
+    "key": "ctrl+shift+alt+meta+f",
     "command": "workbench.view.scm",
   },
   {
@@ -113,6 +124,14 @@
   {
     "key": "meta+ctrl+shift+alt+t",
     "command": "workbench.view.testing.focus",
+  },
+  {
+    "key": "meta+ctrl+shift+alt+q",
+    "command": "workbench.view.extensions",
+  },
+  {
+    "key": "meta+ctrl+shift+alt+w",
+    "command": "timeline.focus",
   },
   // terminal resize
   {
