@@ -17,3 +17,9 @@ Learn keyboard only in vscode
   I imagine I need - will see how effective this is when the trackball arrives:
   - https://ploopy.co/nano-trackball/
   - terrible name but only product like it I could find
+
+## vscode Keybindings on the Hyper Keys
+
+See [keybindings.json](keybindings.json)
+
+![vscode keybindings](vscode.svg)
