@@ -22,4 +22,15 @@ Learn keyboard only in vscode
 
 See [keybindings.json](keybindings.json)
 
+Note that there can be clashes with ctrl shift u for unicode input, and ctrl
+shift e for emoji input. To disable run ```ibus-setup``` and change or remove
+the keybindings that use ctrl shift u and ctrl shift e. Also on RedHat I
+needed the following to make this work:
+
+```bash
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+```
+
 ![vscode keybindings](vscode.svg)
