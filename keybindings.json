@@ -1,108 +1,188 @@
+//
+//
+//
+//
 [
     // These are for navigating between panes ----------------------------------
     // Note the use of meta+ctrl+shift+alt+ for hyper key on my voyager keyboard
     // switch to terminal
     {
-        "key": "meta+ctrl+shift+alt+k",
+        "key": "alt+ctrl+shift+meta+k",
         "command": "workbench.action.terminal.focus",
     },
     // switch to editors
     {
-        "key": "meta+ctrl+shift+alt+i",
+        "key": "alt+ctrl+shift+meta+i",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "!editorFocus"
     },
-    // move right in editors (or other types of non-terminal panes)
+    // focus to the right in editors
     {
-        "key": "meta+ctrl+shift+alt+l",
+        "key": "alt+ctrl+shift+meta+l",
         "command": "workbench.action.focusNextGroup",
     },
-    // move left in editors (or other types of non-terminal panes)
+    // focus left in editors
     {
-        "key": "meta+ctrl+shift+alt+j",
+        "key": "alt+ctrl+shift+meta+j",
         "command": "workbench.action.focusPreviousGroup",
+        "when": "activeEditorGroupIndex!=1",
     },
-    // move right in terminals
+    // focus the sidebar, moving left from first group
     {
-        "key": "meta+ctrl+shift+alt+l",
+        "key": "ctrl+shift+alt+meta+j",
+        "command": "workbench.action.focusSideBar",
+        "when": "activeEditorGroupIndex==1",
+    },
+    // focus the activity bar, moving left from the sidebar
+    {
+        "key": "ctrl+shift+alt+meta+j",
+        "command": "workbench.action.focusActivityBar",
+        "when": "sideBarFocus",
+    },
+    // focus the first group, moving right from the side bar
+    {
+        "key": "ctrl+shift+alt+meta+l",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "sideBarFocus",
+    },
+    // focus right in terminals
+    {
+        "key": "alt+ctrl+shift+meta+l",
         "command": "workbench.action.terminal.focusNextPane",
         "when": "terminalFocus"
     },
-    // move left in terminals
+    // focus left in terminals
     {
-        "key": "meta+ctrl+shift+alt+j",
+        "key": "alt+ctrl+shift+meta+j",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
     },
     // These are for splitting / sizing panes -------------------------------------------
     // split terminal
     {
-        "key": "meta+ctrl+shift+alt+s",
+        "key": "alt+ctrl+shift+meta+y",
         "command": "workbench.action.terminal.split",
         "when": "terminalFocus"
     },
     // split editor left right
     {
-        "key": "meta+ctrl+shift+alt+s",
+        "key": "alt+ctrl+shift+meta+y",
         "command": "workbench.action.splitEditor",
         "when": "editorFocus"
     },
     // split editor up down
     {
-        "key": "meta+ctrl+shift+alt+v",
+        "key": "alt+ctrl+shift+meta+6",
         "command": "workbench.action.splitEditorOrthogonal",
         "when": "editorFocus"
     },
-    // split terminal vertically
-    {
-        "key": "meta+ctrl+shift+alt+v",
-        "command": "workbench.action.terminal.splitInActiveWorkspace",
-        "when": "terminalFocus"
-    },
     // close terminal pane
     {
-        "key": "meta+ctrl+shift+alt+x",
+        "key": "alt+ctrl+shift+meta+0",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
     },
     // close other pane
     {
-        "key": "meta+ctrl+shift+alt+x",
+        "key": "alt+ctrl+shift+meta+0",
         "command": "workbench.action.closeActiveEditor",
         "when": "!terminalFocus"
     },
-    // navigate forward
+    // terminal resize ---------------------------------------------------------
+    {
+        "key": "alt+ctrl+shift+meta+8",
+        "command": "workbench.action.terminal.resizePaneUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+ctrl+shift+meta+,",
+        "command": "workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+h",
+        "command": "workbench.action.terminal.resizePaneLeft",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+;",
+        "command": "workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus"
+    },
+    // editor resize  ----------------------------------------------------------
+    {
+        "key": "ctrl+shift+alt+meta+8",
+        "command": "workbench.action.increaseViewHeight",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+,",
+        "command": "workbench.action.decreaseViewHeight",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+;",
+        "command": "workbench.action.increaseViewWidth",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+h",
+        "command": "workbench.action.decreaseViewWidth",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "alt+ctrl+shift+meta+9",
+        "command": "workbench.action.increaseViewSize",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "alt+ctrl+shift+meta+7",
+        "command": "workbench.action.decreaseViewSize",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "alt+ctrl+shift+meta+n",
+        "command": "workbench.action.evenEditorWidths",
+        "when": "!terminalFocus"
+    },
+    // shift editor windows between groups
+    {
+        "key": "shift+alt+ctrl+shift+meta+o",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "shift+alt+ctrl+shift+meta+u",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    // my preferred save all shortcut
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveFiles"
+    },
+    // navigate forward (like browser)
     {
         "key": "alt+right",
         "command": "workbench.action.navigateForward",
         "when": "canNavigateForward"
     },
-    {
-        "key": "ctrl+shift+-",
-        "command": "-workbench.action.navigateForward",
-        "when": "canNavigateForward"
-    },
-    // navigate back
+    // navigate back (like browser)
     {
         "key": "alt+left",
         "command": "workbench.action.navigateBack",
         "when": "canNavigateBack"
     },
-    {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.navigateBack",
-        "when": "canNavigateBack"
-    },
-    // easier jumps to left pane that does not conflict with emojis
+    // easier jumps to side bar items using hyper key plus left hand top row,
+    // a, d, f
+    //
     //  hyper plus:
     //  a = activity bar (which can access the rest using arrows
     //  d = debug
     //  e = explorer
     //  r / f = repositories / source control
     // rest of top row left hand:
-    //  q = extensions, w = timeline
+    //  q = extensions, w = timeline, t = testing
     {
-        "key": "ctrl+shift+alt+meta+a",
+        "key": "shift+alt+ctrl+shift+meta+a",
         "command": "workbench.action.focusActivityBar"
     },
     {
@@ -111,84 +191,32 @@
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
     {
-        "key": "meta+ctrl+shift+alt+e",
+        "key": "alt+ctrl+shift+meta+e",
         "command": "workbench.view.explorer",
     },
     {
-        "key": "meta+ctrl+shift+alt+r",
+        "key": "alt+ctrl+shift+meta+r",
         "command": "workbench.scm.repositories.focus"
     },
     {
         // scm is the key below source repositories like it is in the panel
-        "key": "ctrl+shift+alt+meta+f",
+        "key": "shift+alt+ctrl+shift+meta+f",
         "command": "workbench.view.scm",
     },
     {
-        "key": "meta+ctrl+shift+alt+d",
+        "key": "alt+ctrl+shift+meta+d",
         "command": "workbench.view.debug",
     },
     {
-        "key": "meta+ctrl+shift+alt+t",
+        "key": "alt+ctrl+shift+meta+t",
         "command": "workbench.view.testing.focus",
     },
     {
-        "key": "meta+ctrl+shift+alt+q",
+        "key": "alt+ctrl+shift+meta+q",
         "command": "workbench.view.extensions",
     },
     {
-        "key": "meta+ctrl+shift+alt+w",
+        "key": "alt+ctrl+shift+meta+w",
         "command": "timeline.focus",
-    },
-    // terminal resize
-    {
-        "key": "meta+ctrl+shift+alt+down",
-        "command": "workbench.action.terminal.resizePaneDown",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "meta+ctrl+shift+alt+up",
-        "command": "workbench.action.terminal.resizePaneUp",
-        "when": "terminalFocus"
-    },
-    // editor resize
-    {
-        "key": "meta+ctrl+shift+alt+down",
-        "command": "workbench.action.decreaseViewSize",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "meta+ctrl+shift+alt+up",
-        "command": "workbench.action.increaseViewSize",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "meta+ctrl+shift+alt+right",
-        "command": "workbench.action.evenEditorWidths",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "meta+ctrl+shift+alt+left",
-        "command": "workbench.action.toggleEditorWidths"
-    },
-    // my preferred save all shortcut
-    {
-        "key": "ctrl+shift+s",
-        "command": "workbench.action.files.saveFiles"
-    },
-    {
-        "key": "ctrl+shift+alt+meta+o",
-        "command": "workbench.action.moveEditorToNextGroup"
-    },
-    {
-        "key": "ctrl+alt+right",
-        "command": "-workbench.action.moveEditorToNextGroup"
-    },
-    {
-        "key": "ctrl+shift+alt+meta+u",
-        "command": "workbench.action.moveEditorToPreviousGroup"
-    },
-    {
-        "key": "ctrl+alt+left",
-        "command": "-workbench.action.moveEditorToPreviousGroup"
     }
 ]
