@@ -164,7 +164,7 @@
         "key": "ctrl+shift+alt+meta+m",
         "command": "workbench.action.previousEditor"
     },
-    // a few other useful things ------------------------------------------------
+    // a few other useful things -----------------------------------------------
     // my preferred save all shortcut
     {
         "key": "ctrl+shift+s",
