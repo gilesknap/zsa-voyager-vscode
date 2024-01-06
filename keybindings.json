@@ -1,8 +1,21 @@
+// Curated shortcuts using hyper key (ctrl+shift+alt+meta) for navigating
+// requires single hyper key using custom keyboard
+// https://gist.github.com/nat-418/135a62fb9f37cc87cd70af1ab72e276a
 //
-//
-//
-//
+// Also be warned that you may need to remove or change some emoji/unicode
+// bindings in ibus-setup as I found these clashed on RedHat and Ubuntu
 [
+    // error navigation
+    {
+        "key": "ctrl+shift+alt+meta+\\",
+        "command": "editor.action.marker.prev",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+'",
+        "command": "editor.action.marker.next",
+        "when": "editorFocus"
+    },
     // These are for navigating between panes ----------------------------------
     // Note the use of meta+ctrl+shift+alt+ for hyper key on my voyager keyboard
     // switch to terminal
@@ -155,6 +168,10 @@
         "key": "shift+alt+ctrl+shift+meta+o",
         "command": "workbench.action.moveEditorToNextGroup"
     },
+    {
+        "key": "shift+alt+ctrl+shift+meta+u",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
     // move between editor pages
     {
         "key": "ctrl+shift+alt+meta+.",
@@ -164,7 +181,7 @@
         "key": "ctrl+shift+alt+meta+m",
         "command": "workbench.action.previousEditor"
     },
-    // a few other useful things -----------------------------------------------
+    // a few other useful things ------------------------------------------------
     // my preferred save all shortcut
     {
         "key": "ctrl+shift+s",
@@ -230,5 +247,5 @@
         "key": "alt+ctrl+shift+meta+w",
         "command": "timeline.focus",
         // end of manually edited keybindings   -----------------------------------
-    }
+    },
 ]
