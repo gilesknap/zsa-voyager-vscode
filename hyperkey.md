@@ -11,19 +11,16 @@ Custom keyboards can be configured with a Hyper key. For standard keyboards
 see below.
 
 Here are some keybindings for vscode that
-enable easy pane navigation and layout management.
+enable easy navigation and layout management.
 
 WARNING: Although I'm from the UK, I use a US keyboard layout. UK keyboard
 users will need to change the `\` to `[` for the layout to make sense. Other
 layouts may need other changes.
 
 One other point, if you have an
-[ortholinear](https://www.daskeyboard.com/blog/what-is-an-ortholinear-keyboard/)
+[ortholinear keyboard](https://www.daskeyboard.com/blog/what-is-an-ortholinear-keyboard/)
 then they layout will be really tidy and look exactly like the diagram below.
-If you don't then the keys will be offset a little. If you are thinking about
-getting a new keyboard then I highly recommend ortholinear. You will have
-a learning curve, but it is worth it.
-
+If you don't then the keys will be offset a little.
 
 See [keybindings.json](keybindings.json) for the vscode bindings to merge into
 ~/.config/Code/User/keybindings.json.
