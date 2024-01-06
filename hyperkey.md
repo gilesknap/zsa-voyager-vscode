@@ -35,7 +35,7 @@ to blame and has bugs.
 
 To disable run ```ibus-setup```, go to the "emoji" pane and change or remove
 the keybindings that use ctrl shift u and ctrl shift e. Also on RedHat I
-needed the following in my bash to make this work:
+needed the following in my bash profile to make this work:
 
 ```bash
 export GTK_IM_MODULE=ibus
