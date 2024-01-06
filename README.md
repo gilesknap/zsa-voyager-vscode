@@ -15,4 +15,5 @@ Learn keyboard only in vscode.
   made for the keyboard already has left hand mouse buttons plus everything else
   I imagine I need - will see how effective this is when the trackball arrives:
   - https://ploopy.co/nano-trackball/
-  - terrible name but only product like it I could find
+  - the only product like it I could find that looked appropriate. All others,
+    are designed like mice and would need to move the hand too much to operate.
