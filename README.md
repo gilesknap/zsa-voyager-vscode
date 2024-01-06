@@ -3,7 +3,6 @@
 Ideas for avoiding the use of mouse in order to improve workflow speed and
 reduce RSI risk.
 
-- Learn zero glances at the keyboard. (neck RSI!)
 
 - Get a decent
   [ortholinear keyboard](https://www.daskeyboard.com/blog/what-is-an-ortholinear-keyboard/)
@@ -26,3 +25,5 @@ reduce RSI risk.
   - this implies configuring mouse buttons and wheel in a layer in a custom
     keyboard. It is also most appropriate for a split keyboard so the trackball
     can sit near one thumb.
+
+- Using the above, learn zero glances at the keyboard. (neck RSI!)
