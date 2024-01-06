@@ -1,8 +1,10 @@
 # Some ideas for making keyboards work harder for developers
 
-## vscode Keybindings on the Hyper Keys
+## Hyper Key bindings for VSCode
 
-Hyper [key ctrl shift alt cmd] gives the ability to make keybindings that
+### Introduction
+
+The Hyper Key `ctrl shift alt cmd` gives the ability to make keybindings that
 don't clash with anything else. The point is not to try contort your fingers
 to press all four keys at once, but to configure your keyboard to have a
 single keypress mapped to the Hyper key.
@@ -10,6 +12,16 @@ single keypress mapped to the Hyper key.
 Custom keyboards can be configured with a Hyper key. For standard keyboards
 see below.
 
+The idea of the keybindings presented here is that they are laid out in a
+intuitive fashion that can be more quickly memorised than the defaults, which
+often use function keys and multiple modifiers.
+
+Also, vscode defaults have separate keybindings to remember for operations that feel the
+same, like `next change` and `next error`, or `next editor group` and `next terminal`.
+The bindings below combine such operations onto a single key that works
+contextually.
+
+### Keybindings
 Here are some keybindings for vscode that
 enable easy navigation and layout management.
 
@@ -19,7 +31,7 @@ layouts may need other changes.
 
 One other point, if you have an
 [ortholinear keyboard](https://www.daskeyboard.com/blog/what-is-an-ortholinear-keyboard/)
-then they layout will be really tidy and look exactly like the diagram below.
+then the layout will be really tidy and look exactly like the diagram below.
 If you don't then the keys will be offset a little.
 
 See [keybindings.json](keybindings.json) for the vscode bindings to merge into
