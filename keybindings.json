@@ -1,8 +1,8 @@
 // Curated shortcuts using hyper key (ctrl+shift+alt+meta) for navigating
-// requires single hyper key using custom keyboard
+// requires single hyper key using custom keyboard or use:
 // https://gist.github.com/nat-418/135a62fb9f37cc87cd70af1ab72e276a
 //
-// Also be warned that you may need to remove or change some emoji/unicode
+// Be warned that you may need to remove or change some emoji/unicode
 // bindings in ibus-setup as I found these clashed on RedHat and Ubuntu
 [
     // error navigation
@@ -16,8 +16,19 @@
         "command": "editor.action.marker.next",
         "when": "editorFocus"
     },
+    // changes navigation
+    {
+        "key": "ctrl+shift+alt+meta+'",
+        "command": "workbench.action.compareEditor.nextChange",
+        "when": "textCompareEditorVisible"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+\\",
+        "command": "workbench.action.compareEditor.previousChange",
+        "when": "textCompareEditorVisible"
+    },
     // These are for navigating between panes ----------------------------------
-    // Note the use of meta+ctrl+shift+alt+ for hyper key on my voyager keyboard
+    //
     // switch to terminal
     {
         "key": "alt+ctrl+shift+meta+k",
