@@ -92,3 +92,10 @@ To get a terminal command output into an editor window:
 - `ctrl` `v` to paste
 
 Above is a good candidate for a keyboard macro if you have such a capability.
+
+## Menus
+
+| Key | Action |
+| --- | ------ |
+| `alt` | Show menu bar |
+| `alt shift` `O` | Open Remotes / Dev Containers menu |
