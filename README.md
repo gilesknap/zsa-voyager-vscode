@@ -1,7 +1,8 @@
 # Using the Keyboard More with VSCode
 
 Ideas for avoiding the use of mouse in order to improve workflow speed and
-reduce RSI risk.
+reduce RSI risk. This repo is specifically aimed at the ZSA voyager keyboard
+but other keyboard users can take advantage of most of these ideas.
 
 
 - Get a decent
