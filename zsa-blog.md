@@ -19,12 +19,12 @@ many keyboards, but you will get the best results with a keyboard that is:
 Why the Voyager
 ---------------
 
-There are a few things that the voyager brings that have helped achieve zero
-mouse use in VSCode.
+There are a few things that the voyager brings that have helped achieve
+(near) zero mouse use in VSCode.
 
-- The compact layout ortholinear layout lets you feel your way around easily,
-  never have to stretch your hand and never loose the home keys. This allows
-  you to completely avoid looking down from the monitor.
+- The compact, ortholinear layout lets you feel your way around easily,
+  never have to stretch your hand and never loose the home keys.
+  Therefore you never need to look away from the monitor.
 - The ability to program a hyper key means that you can assign a bunch of
   vscode keybindings without constantly clashing with other keybindings.
 - Finally, you can program the keyboard to operate as a mouse so that for minor
