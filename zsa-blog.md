@@ -187,7 +187,7 @@ Above is a good candidate for a keyboard macro if you have such a capability.
 
 Every single command is available via the command palette `ctrl` `shift` `P`.
 Its really useful for the obscure things like - clearing all the pop up
-notifications which has no default key binding. It's also great if you forget
+notifications, which has no default key binding. It's also great if you forget
 a keybinding, as it will remind you of the binding once you find the command.
 
 Summing Up
@@ -198,10 +198,6 @@ reach for it when switching to a browser. I also don't find the selection
 of text in VSCode terminals that consistent.
 It is almost brilliant, but falls a little short,
 so that is now the only time I still use the mouse within VSCode.
-I have also configured a dedicated mouse layer on the Voyager Keyboard,
-this allows me to perform many mouse operations without leaving the board,
-but its not as quick as a mouse once you are in a very GUI intensive app
-such as the browser.
 
 On this final, successful attempt to eschew the mouse, I found I reached a
 tipping point. I had got far enough that each time I got stuck, instead of
