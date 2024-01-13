@@ -199,7 +199,7 @@ this allows me to perform many mouse operations without leaving the board,
 but its not as quick as a mouse once you are in a very GUI intensive app
 such as the browser.
 
-On this final, successful attempt to eschew the mouse I found I reached a
+On this final, successful attempt to eschew the mouse, I found I reached a
 tipping point. I had got far enough that each time I got stuck, instead of
 reaching for the mouse, I looked up and memorized a new shortcut, even outside
 of VSCode. If you get to that point, you have cracked it!
