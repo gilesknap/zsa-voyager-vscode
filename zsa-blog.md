@@ -56,7 +56,7 @@ here:
 [keybindings.json](https://github.com/gilesknap/zsa-voyager-vscode/blob/main/keybindings.json).
 You should merge this file into
 your user keybindings file. Use the menu command
-File > Preferences > Keyboard Shortcuts to open your user keybindings.
+`File > Preferences > Keyboard Shortcuts` to open your user keybindings.
 These bindings are guaranteed not to clash with existing ones and
 they don't delete any exiting bindings.
 
@@ -87,7 +87,7 @@ See my voyager keyboard config
 [here](https://configure.zsa.io/voyager/layouts/pDAzE/WOLZj/0)
 
 It is a great idea to have the Application Key configured. This will give
-you the context menu equivalent to right mouse click on the currently
+you the context menu, equivalent to right mouse click on the currently
 focused item.
 On standard keyboards the application key looks like this:
 
@@ -116,6 +116,10 @@ the folders in your workspace and all the code sections within each file.
 | `ctrl` `⏎` | Add all found words to selection |
 | `ctrl` `d` | Add current word / next matching word to selection |
 | `ctrl` `u` | undo last selection / cursor motion |
+
+Example use of `ctrl` `d`:
+
+![Alt text](multicursor.gif)
 
 ## Navigating the Explorer
 
@@ -212,6 +216,6 @@ can track updates to my notes
 [here](https://github.com/gilesknap/zsa-voyager-vscode) if interested.
 
 ****
-<img style="float: left;margin: 0 50px 40px 250px" width=150, src="giles.png">
+<img style="float: left;margin: 0 50px 40px 150px" width=140, src="giles.png">
 Giles Knap is a Software Engineer working for Diamond Light Source, the UK's
 National Synchrotron.
