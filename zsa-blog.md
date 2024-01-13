@@ -57,11 +57,11 @@ here:
 You should merge this file into
 your user keybindings file. Use the menu command
 `File > Preferences > Keyboard Shortcuts` to open your user keybindings.
-These bindings are guaranteed not to clash with existing ones and
-they don't delete any exiting bindings.
+These bindings are guaranteed not to clash with existing defaults and
+they don't delete any existing bindings.
 
 One problem with trying to memorize the default bindings is that there are
-separate functions for similar operations. e.g. `next error` in a code editor
+separate functions for similar operations. e.g. `next error` in a Code Editor
 and `next change` in a Working Tree editor. Where possible I have used a
 single keybinding to multiple similar functions, chosen by the context.
 
@@ -186,7 +186,7 @@ Above is a good candidate for a keyboard macro if you have such a capability.
 ## Don't Forget
 
 Every single command is available via the command palette `ctrl` `shift` `P`.
-Its really useful for the obscure things like - clearing all the pop up
+It is really useful for the obscure things like - clearing all the pop up
 notifications, which has no default key binding. It's also great if you forget
 a keybinding, as it will remind you of the binding once you find the command.
 
