@@ -211,3 +211,7 @@ I'm going to continue on this journey of keyboard skills improvement and you
 can track updates to my notes
 [here](https://github.com/gilesknap/zsa-voyager-vscode) if interested.
 
+****
+<img style="float: left;margin: 0 50px 40px 250px" width=150, src="giles.png">
+Giles Knap is a Software Engineer working for Diamond Light Source, the UK's
+National Synchrotron.
