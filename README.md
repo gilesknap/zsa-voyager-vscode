@@ -28,5 +28,10 @@ but other keyboard users can take advantage of most of these ideas.
   - this implies configuring mouse buttons and wheel in a layer in a custom
     keyboard. It is also most appropriate for a split keyboard so the trackball
     can sit near one thumb.
+  - This idea was a FAIL - but maybe a better trackball would work? this
+    one just feels way to sensitive when finishing a move.
 
 - Using the above, learn zero glances at the keyboard. (neck RSI!)
+
+- Heatmap shows good distribution of finger usage after a morning's coding
+  - see [heatmap.png](heatmap.png)
