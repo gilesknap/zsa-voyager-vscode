@@ -1,14 +1,23 @@
+# Combined Keybinding Notes
+
+
+## Hyper Key bindings for VSCode
+
+Note that hyper 7 and 9 resize ANY pane that you are in. This includes the Explorer and terminals (but vertical only for terminals).
+
+![vscode keybindings](vscode.svg)
+
+-----------------
+
+# Giles Voyager mappings
+
+![right hand keybindings](layout.png)
+
+![left hand keybindings](layoutleft.png)
+
+-----------------
+
 # Keys to remember for vscode
-
-Suggestion: those keys below that have multiple modifiers might be candidates for
-custom key assignment unless you can reach the combination easily.
-
-IMPORTANT: make sure you have an Application Key configured. This will give
-you the context menu like right mouse click on the currently focused item.
-
-On standard keyboards it looks like this:
-
-![Alt text](image.png)
 
 ## Breadcrumbs
 
@@ -48,8 +57,6 @@ e.g. to add '-world' to all instances of 'hello':
 
 And other tree views like search results, git history, etc.
 
-To get focus on these - see [hyperkey.md](hyperkey.md)
-
 | Key | Action |
 | --- | ------ |
 | `↓` `↑` `→` `←`| Navigate (shift for multi-select) |
@@ -72,8 +79,6 @@ See [hyperkey.md](hyperkey.md) for navigating changes / errors.
 | `Application Key` | Menu for ALL code inspection options |
 
 ## Terminals
-
-See [hyperkey.md](hyperkey.md) for splitting and resizing terminals.
 
 | Key | Action |
 | --- | ------ |

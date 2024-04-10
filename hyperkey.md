@@ -40,6 +40,7 @@ See [keybindings.json](keybindings.json) for the vscode bindings to merge into
 Note that the J-K-L and I keys effectively allow you to have
 arrow keys for jumping around editor groups / sidebar / terminal panes.
 
+Also note that hyper 7 and 9 resize ANY pane that you are in. This includes the Explorer and terminals (but vertical only for terminals).
 
 ![vscode keybindings](vscode.svg)
 
@@ -52,6 +53,8 @@ https://gist.github.com/nat-418/135a62fb9f37cc87cd70af1ab72e276a
 
 
 ### Some minor niggles
+
+UPDATE: this is no longer an issue in Ubuntu 24.04.
 
 Note that there can be clashes with ctrl shift u for unicode input, and ctrl
 shift e for emoji input. It is odd because these seem to be ignoring the fact
