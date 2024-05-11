@@ -114,7 +114,7 @@
     },
     // close all other editors in group
     {
-        "key": "ctrl+shift+alt+meta+P",
+        "key": "ctrl+shift+alt+meta+p",
         "command": "workbench.action.closeOtherEditors"
     },
     // terminal resize ---------------------------------------------------------
@@ -176,11 +176,11 @@
     },
     // shift editor windows between groups
     {
-        "key": "shift+alt+ctrl+shift+meta+o",
+        "key": "alt+ctrl+shift+meta+o",
         "command": "workbench.action.moveEditorToNextGroup"
     },
     {
-        "key": "shift+alt+ctrl+shift+meta+u",
+        "key": "alt+ctrl+shift+meta+u",
         "command": "workbench.action.moveEditorToPreviousGroup"
     },
     // move between editor pages
@@ -221,7 +221,7 @@
     // rest of top row left hand:
     //  q = extensions, w = timeline, t = testing
     {
-        "key": "shift+alt+ctrl+shift+meta+a",
+        "key": "alt+ctrl+shift+meta+a",
         "command": "workbench.action.focusActivityBar"
     },
     {
@@ -239,7 +239,7 @@
     },
     {
         // scm is the key below source repositories like it is in the panel
-        "key": "shift+alt+ctrl+shift+meta+f",
+        "key": "alt+ctrl+shift+meta+f",
         "command": "workbench.view.scm"
     },
     {
