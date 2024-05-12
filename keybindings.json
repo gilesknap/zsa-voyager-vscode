@@ -32,7 +32,7 @@
     // switch to terminal
     {
         "key": "alt+ctrl+shift+meta+k",
-        "command": "workbench.action.terminal.focus",
+        "command": "workbench.action.terminal.focus"
     },
     // switch to editors
     {
@@ -43,31 +43,31 @@
     // focus to the right in editors
     {
         "key": "alt+ctrl+shift+meta+l",
-        "command": "workbench.action.focusNextGroup",
+        "command": "workbench.action.focusNextGroup"
     },
     // focus left in editors
     {
         "key": "alt+ctrl+shift+meta+j",
         "command": "workbench.action.focusPreviousGroup",
-        "when": "activeEditorGroupIndex!=1",
+        "when": "activeEditorGroupIndex!=1"
     },
     // focus the sidebar, moving left from first group
     {
         "key": "ctrl+shift+alt+meta+j",
         "command": "workbench.action.focusSideBar",
-        "when": "activeEditorGroupIndex==1",
+        "when": "activeEditorGroupIndex==1"
     },
     // focus the activity bar, moving left from the sidebar
     {
         "key": "ctrl+shift+alt+meta+j",
         "command": "workbench.action.focusActivityBar",
-        "when": "sideBarFocus",
+        "when": "sideBarFocus"
     },
     // focus the first group, moving right from the side bar
     {
         "key": "ctrl+shift+alt+meta+l",
         "command": "workbench.action.focusFirstEditorGroup",
-        "when": "sideBarFocus",
+        "when": "sideBarFocus"
     },
     // focus right in terminals
     {
@@ -231,7 +231,7 @@
     },
     {
         "key": "alt+ctrl+shift+meta+e",
-        "command": "workbench.view.explorer",
+        "command": "workbench.view.explorer"
     },
     {
         "key": "alt+ctrl+shift+meta+r",
@@ -240,23 +240,23 @@
     {
         // scm is the key below source repositories like it is in the panel
         "key": "shift+alt+ctrl+shift+meta+f",
-        "command": "workbench.view.scm",
+        "command": "workbench.view.scm"
     },
     {
         "key": "alt+ctrl+shift+meta+d",
-        "command": "workbench.view.debug",
+        "command": "workbench.view.debug"
     },
     {
         "key": "alt+ctrl+shift+meta+t",
-        "command": "workbench.view.testing.focus",
+        "command": "workbench.view.testing.focus"
     },
     {
         "key": "alt+ctrl+shift+meta+q",
-        "command": "workbench.view.extensions",
+        "command": "workbench.view.extensions"
     },
     {
         "key": "alt+ctrl+shift+meta+w",
-        "command": "timeline.focus",
+        "command": "timeline.focus"
         // end of manually edited keybindings   -----------------------------------
-    },
+    }
 ]
